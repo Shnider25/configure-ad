@@ -36,8 +36,9 @@ Establish a Domain Controller Virtual Machine (VM) titled "DC-1" utilizing Windo
 <br />
 
 <p>
-<img src="https://i.imgur.com/MzTj3kV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/0iCtbkz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+<img src="https://i.imgur.com/lpal53A.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PkUCqnc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/2SHj6Bz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
 To troubleshoot connectivity concerns, begin by logging into Client-1. Execute the "ping -t " command from Client-1 to examine the private IP of DC-1. In case the ping test fails, consider enabling ICMPv4 within the Windows Firewall settings of the Domain Controller. Subsequently, reattempt the ping from Client-1 to validate a successful connection after implementing these adjustments.
@@ -55,9 +56,9 @@ Access DC-1 and proceed with the installation of Active Directory Domain Service
 <br />
 
 <p>
-<img src="https://i.imgur.com/Bzv6lKo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Following the virtual machine's completion of the restart, log in again to DC-1 using the username mydomain.com\labuser.
+Following the virtual machine's completion of the restart, I log in again to DC-1 using the username sbmusic.com\labuser.
 </p>
 <br />
