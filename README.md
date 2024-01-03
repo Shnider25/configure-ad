@@ -46,8 +46,9 @@ To troubleshoot connectivity concerns, begin by logging into Client-1. Execute t
 <br />
 
 <p>
-<img src="https://i.imgur.com/0mUcZbx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/wnOCGRE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ExuDg71.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/g8fsIoh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hSfDXrS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -56,7 +57,7 @@ Access DC-1 and proceed with the installation of Active Directory Domain Service
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hFUEhqH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Following the virtual machine's completion of the restart, I log in again to DC-1 using the username sbmusic.com\labuser.
