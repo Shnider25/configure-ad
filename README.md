@@ -40,7 +40,7 @@ Establish a Domain Controller Virtual Machine (VM) titled "DC-1" utilizing Windo
 <img src="https://i.imgur.com/0iCtbkz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
-To resolve connectivity issues, you should start by logging in to Client-1. From there, you can use the "ping -t <ip address>" command to check the private IP of DC-1. If the ping test fails, you will need to enable ICMPv4 on the Windows Firewall of the Domain Controller. Once you've completed these steps, check back on Client-1 to confirm a successful ping.
+To troubleshoot connectivity concerns, begin by logging into Client-1. Execute the "ping -t " command from Client-1 to examine the private IP of DC-1. In case the ping test fails, consider enabling ICMPv4 within the Windows Firewall settings of the Domain Controller. Subsequently, reattempt the ping from Client-1 to validate a successful connection after implementing these adjustments.
 </p>
 <br />
 
@@ -49,7 +49,8 @@ To resolve connectivity issues, you should start by logging in to Client-1. From
 <img src="https://i.imgur.com/wnOCGRE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Login to DC-1 and install Active Directory Domain Services. Then promote it as a Domain Controller by setting up a new forest with mydomain.com.
+
+Access DC-1 and proceed with the installation of Active Directory Domain Services. Subsequently, initiate the promotion process to establish it as a Domain Controller by configuring a new forest named mydomain.com.
 </p>
 <br />
 
@@ -57,6 +58,6 @@ Login to DC-1 and install Active Directory Domain Services. Then promote it as a
 <img src="https://i.imgur.com/Bzv6lKo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After the virtual machine has finished restarting, please log back into DC-1 by using the username mydomain.com\labuser.
+Following the virtual machine's completion of the restart, log in again to DC-1 using the username mydomain.com\labuser.
 </p>
 <br />
